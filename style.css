@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.homebody{
+    background: url(../images/pexels-karolina-grabowska-4968384.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: 'Solway', serif;
+}
+
+.fa-bars
+{
+	color:#fff;
+	font-size:30p !important;
+}
+/*---banner section--*/
+#main
+{
+	text-align: center;
+background-color:  rgb(00,00,00);
+color:#fff;
+padding: 20px;
+padding-top:5%;	
+}
+
+
+
+/*---service section---*/
+
+#features1
+{
+	text-align: center;
+	padding: 10% 15%;
+}
+
+ #features
+ {
+	 text-align: center;
+	 padding: 20% 35%;
+	 background: url(../images/pexels-karolina-grabowska-4968384.jpg) no-repeat center center fixed;
+	 background-repeat:no-repeat;
+	 background-size: cover;
+	
+ }
+ .features1 h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+.title::before
+{
+	content:'';
+	background:#4672ac;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	content:'';
+	background:#16a2b4;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#a517ba,#5f1782)
+}
+/* Action*/
+  #action{
+    background-image: url('https://images.unsplash.com/photo-1601597111158-2fceff292cdc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    padding: 7% 15%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    text-align: center;
+    line-height: 1.5;
+    color: #FD297A ;
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer{
+	background-color: #242B2E;
+    color:#fff;
+	position:relative;
+ /* padding: 4% %; */
+    text-align: center;
+}

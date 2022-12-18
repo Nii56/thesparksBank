@@ -1,0 +1,27 @@
+/* navbar css ends here  */
+#main
+{
+    padding: 3% 10%;
+    background-size: cover;
+    
+    background-image: url('https://images.unsplash.com/photo-1565514158740-064f34bd6cfd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+}
+
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(6, 76, 88)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(32, 51, 45)!important;
+}
+#footer{
+	background-color: #242B2E;
+    color:#fff;
+    text-align: center;
+}
